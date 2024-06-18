@@ -1,5 +1,5 @@
 import unittest
-from math import pi
+import math
 from geometry import rectangle_area, rectangle_perimeter, circle_area, circle_circumference
 
 class TestGeometry(unittest.TestCase):
