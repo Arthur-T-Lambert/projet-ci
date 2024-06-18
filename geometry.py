@@ -1,9 +1,9 @@
-import math
-
 """!
 @file geometry.py
 @brief This module provides basic geometric operations.
 """
+
+import math
 
 
 def rectangle_area(length, width):
