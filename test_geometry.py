@@ -1,5 +1,5 @@
 import unittest
-from math import pi
+import math
 from geometry import rectangle_area, rectangle_perimeter, circle_area, circle_circumference
 
 class TestGeometry(unittest.TestCase):
@@ -13,7 +13,7 @@ class TestGeometry(unittest.TestCase):
 
     def test_rectangle_perimeter(self):
         self.assertEqual(rectangle_perimeter(2, 3), 10)
-        self.assertEqual(rectangle_perimeter(3.5, 1), 9.5)
+        self.assertEqual(rectangle_perimeter(3.5, 1), 9)
         self.assertEqual(rectangle_perimeter(0, 0), 0)
         with self.assertRaises(ValueError):
             rectangle_perimeter(-10, 2)
